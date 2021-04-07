@@ -4,7 +4,7 @@
 I imagined that we had been initially approached by the City of Chicago to analyse the traffic crash data they had accumulated between 2013 and 2021. We have been asked to first, identify problems (if any) with road safety and, if so, learn **what kind of improvements** should be targeted and **where (geographically) those improvements** on the ground may be necessary. As a side question, the City acknowledges that more people may want to cycle going forward and wants to encourage that; hence, looking ahead, they would like to briefly know more about crashes (and injuries) associated with doorings.
 
 ## Approach
-The **primary objective** is to identify the model(s) trained on either the crash or vehicle data which can best predict which crashes will result in an injury of any description.
+The **primary objective** is to identify the model(s) trained on either the crash or vehicle data which can best predict which crashes will result in an injury of any description. Once identified, interpreting the model to isolate which factors are influential in predicting a crash which results in an injury; these factors are those that the City will need to bear in mind when implementing actual road safety measures.
 
 We will attempt to achieve this in 3 steps:
 
@@ -12,7 +12,7 @@ We will attempt to achieve this in 3 steps:
 
 2) **Evaluation of models for further investigation** - Having investigated and cleaned the data in the prior step, we train a variety of sklearn supervised learning algorithms and discover their evaluation metrics on a cross validated basis. Also includes a deeper discussion into why the project will a) prioritise Recall scores and b) evaluate each trained model against dummy classifiers and against each other to identify suitable models for further investigation.
 
-3) **Conclusions drawn from investigating models** - Having identified one (or two) models for further analysis, we will peer under the hood of these models to identify which features were influential in that model's predictive output.  The most influential features are those that the City of Chicago needs to target when implementing actual road safety features.
+3) **Conclusions drawn from investigating models** - Having identified one (or two) models for further analysis, we will peer under the hood of these models to identify which features were influential in that model's predictive output.  The most influential features are those that the City of Chicago needs to target when implementing actual road safety measures.
 
 ## Contents
 This repository contains:
