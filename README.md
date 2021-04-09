@@ -27,4 +27,4 @@ Clone the repository and run the Jupyter Notebook
 
 ## Other materials
 I blogged about this project here: https://hsinhinlim.medium.com/not-a-complete-car-crash-85d4d8bb3de8
-There is a YouTube video of a non-technical walkthrough of the slide presentation here: [ ]
+There is a YouTube video of a non-technical walkthrough of the slide presentation here: https://www.youtube.com/watch?v=EwNtfB4QY9M
